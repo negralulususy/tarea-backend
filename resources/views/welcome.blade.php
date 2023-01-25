@@ -6,8 +6,9 @@
     <title>MARCA BLANCA - Prueba backend developer</title>
 
     <!-- Star CSS and Javascript -->
-        <link rel="stylesheet" href="{{ asset('css/reset.css') }}" type="text/css" media="screen,projection">
-        <link rel="stylesheet" href="{{ asset('css/estilos.css') }}" type="text/css" media="screen,projection">
+        <link rel="stylesheet" href="{{ asset($config['css-reset']) }}" type="text/css" media="screen,projection">
+        <link rel="stylesheet" href="{{ asset($config['css-estilos']) }}" type="text/css" media="screen,projection">
+        {{-- css de simplemodal --}}
         <link rel="stylecheet" href="{{ asset('css/basic.css') }}" type="text/css" media='screen' />
     <!-- end CSS and Javascript -->
     </head>
